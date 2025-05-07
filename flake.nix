@@ -12,6 +12,7 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/desktop # System settings
+          ./home/jonathan/user.nix
           home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
@@ -23,6 +24,7 @@
         system = "x86_64-linux";
         modules = [
           ./hosts/laptop # System settings
+          ./home/jonathan/user.nix
           home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
