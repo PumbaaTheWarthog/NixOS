@@ -1,5 +1,5 @@
 { config, pkgs, ... }: {
-    programs.home-manager.enable = true;
+  programs.home-manager.enable = true;
 
   home = {
     username = "jonathan";
@@ -10,8 +10,4 @@
       vscode
     ];
   };
-
-  imports = [
-    ./../../modules/desktop/gnome.nix
-  ];
 }
