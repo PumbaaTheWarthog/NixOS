@@ -1,0 +1,17 @@
+{ config, pkgs, ... }: {
+    programs.home-manager.enable = true;
+
+  home = {
+    username = "jonathan";
+    homeDirectory = "/home/jonathan";
+    stateVersion = "24.11";
+    packages = with pkgs; [
+      firefox
+      vscode
+    ];
+  };
+
+  imports = [
+    ./../../modules/desktop/gnome.nix
+  ]
+}
