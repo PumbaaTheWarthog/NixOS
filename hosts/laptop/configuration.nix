@@ -23,7 +23,7 @@
         configurationLimit = 5;
         editor = false;
       };
-      efi.canTouchVariables = true;
+      efi.canTouchEfiVariables = true;
       timeout = 60;
     };
   };
