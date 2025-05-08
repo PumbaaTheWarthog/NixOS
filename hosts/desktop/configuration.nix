@@ -19,11 +19,11 @@
     loader = {
       systemd-boot = {
         enable = true;
-        windows.windows11.title = "BloatOS";
+        #windows.windows11.title = "BloatOS";
         configurationLimit = 5;
         editor = false;
       };
-      efi.canTouchVariables = true;
+      efi.canTouchEfiVariables = true;
       timeout = 60;
     };
   };
