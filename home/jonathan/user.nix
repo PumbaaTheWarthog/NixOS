@@ -4,14 +4,8 @@
     home  = "/home/jonathan";
   };
 
-  services.xserver = {
-    enable = true;
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-  };
-
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
+  imports = {
+    ../../modules/desktop/gnome.nix
+    ../../modules/desktop/hyprland.nix
   };
 }
