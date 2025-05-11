@@ -4,8 +4,8 @@
     home  = "/home/jonathan";
   };
 
-  imports = {
+  imports = [
     ../../modules/desktop/gnome.nix
     ../../modules/desktop/hyprland.nix
-  };
+  ];
 }
