@@ -2,9 +2,9 @@
   description = "My NixOS Flake";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixos-hardware.url = "github:NixOS/nixos-hardware";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    nixos-hardware.url = "github:NixOS/nixos-hardware";
   };
   outputs = { self, nixpkgs, home-manager, ... }: {
     nixosConfigurations = {
