@@ -49,7 +49,7 @@
   security.rtkit.enable = true;
 
   networking = {
-    hostName = "nixos";
+    hostName = "laptop";
     networkmanager.enable = true;
     enableIPv6 = false;
     firewall.enable = true;
