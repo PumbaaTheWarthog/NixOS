@@ -8,7 +8,7 @@
   };
   outputs = { self, nixpkgs, home-manager, ... }: {
     nixosConfigurations = {
-      desktop = nixpkgs.lib.nixosSystem {
+      dutzo-esport-fire = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./hosts/desktop # System settings
@@ -20,7 +20,7 @@
           }
         ];
       };
-      laptop = nixpkgs.lib.nixosSystem {
+      acer-aspire-a315-24p = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./hosts/laptop # System settings
