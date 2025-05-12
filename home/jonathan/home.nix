@@ -11,7 +11,7 @@
     ];
   };
 
-  imports = with [
+  imports = [
     ./programs/
   ];
 }
