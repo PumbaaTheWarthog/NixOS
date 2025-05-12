@@ -5,7 +5,7 @@
     extraGroups = [
       "audio"
       "networkmanager"
-      "root"
+      "video"
       "wheel"
     ];
   };
