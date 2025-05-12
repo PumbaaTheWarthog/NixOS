@@ -3,7 +3,9 @@
     isNormalUser  = true;
     home  = "/home/jonathan";
     extraGroups = [
+      "audio"
       "networkmanager"
+      "root"
       "wheel"
     ];
   };
