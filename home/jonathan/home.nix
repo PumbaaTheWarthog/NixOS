@@ -10,4 +10,10 @@
       vscode
     ];
   };
+
+  imports = with ./programs/; [
+    git.nix
+    neovim.nix
+    vscode.nix
+  ];
 }
