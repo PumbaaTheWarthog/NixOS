@@ -2,6 +2,9 @@
   users.users.jonathan = {
     isNormalUser  = true;
     home  = "/home/jonathan";
+    extraGroups = [
+      "wheel"
+    ];
   };
 
   imports = [
