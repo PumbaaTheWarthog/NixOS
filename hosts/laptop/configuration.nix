@@ -20,7 +20,7 @@
       systemd-boot = {
         enable = true;
         #windows.windows11.title = "BloatOS";
-        configurationLimit = 5;
+        configurationLimit = 2;
         editor = false;
       };
       efi.canTouchEfiVariables = true;
