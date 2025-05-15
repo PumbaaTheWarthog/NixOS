@@ -12,6 +12,6 @@
 
   imports = [
     ../../modules/desktop/gnome.nix
-    ../../modules/desktop/hyprland.nix
+    ../../modules/desktop/i3wm.nix
   ];
 }
