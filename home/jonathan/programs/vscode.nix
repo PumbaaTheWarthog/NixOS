@@ -8,7 +8,7 @@
           james-yu.latex-workshop
         ];
         userSettings = {
-          # Define user settings
+          // Define user settings
         };
       };
       python = {
@@ -18,7 +18,7 @@
           ms-python.debugpy
         ];
         userSettings = {
-          # Define user settings
+          // Define user settings
         };
       };
     };
