@@ -1,6 +1,5 @@
 { config, pkgs, ... }: {
   hardware.nvidia = {
-    enabled = true;
     package = config.boot.kernelPackages.nvidiaPackages.stable;
     open = true; # Whether to enable the open source NVIDIA kernel module.
     modesetting.enable = true;
