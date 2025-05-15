@@ -6,4 +6,5 @@
     modesetting.enable = true;
     nvidiaSettings = true; # Whether to enable nvidia-settings, NVIDIA’s GUI configuration tool.
   };
+  services.xserver.videoDrivers = [ "nvidia" ];
 }
