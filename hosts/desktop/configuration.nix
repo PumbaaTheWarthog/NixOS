@@ -53,7 +53,6 @@
   security.rtkit.enable = true;
 
   networking = {
-    hostName = "desktop";
     networkmanager.enable = true;
     enableIPv6 = false;
     firewall.enable = true;
