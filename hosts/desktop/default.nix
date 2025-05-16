@@ -4,4 +4,5 @@
     ./hardware-configuration.nix
     ../../modules/nixos/nvidia.nix
   ];
+  networking.hostName = "desktop";
 }
