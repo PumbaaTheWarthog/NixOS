@@ -64,6 +64,6 @@
   time.timeZone = "Europe/Copenhagen";
 
   documentation.nixos.enable = false;
-  system.stateVersion = "unstable";
+  system.stateVersion = "25.05";
 
 }
