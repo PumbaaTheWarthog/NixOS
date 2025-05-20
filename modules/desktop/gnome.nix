@@ -6,7 +6,7 @@
   };
 
   services.gnome = {
-    core-apps.enable = false;
+    core-utilities.enable = false;
     core-developer-tools.enable = false;
     games.enable = false;
   };
