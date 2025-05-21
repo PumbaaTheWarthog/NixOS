@@ -4,7 +4,7 @@
   home = {
     username = "jonathan";
     homeDirectory = "/home/jonathan";
-    stateVersion = "25.05";
+    stateVersion = "24.11";
     packages = with pkgs; [
       firefox
       vscode
