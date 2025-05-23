@@ -13,7 +13,7 @@
           "editor.accessibilitySupport" = "off";
           "editor.autoClosingBrackets" = "always";
           "editor.autoClosingQuotes" = "always";
-          "aeditor.utoIndent" = "full";
+          "editor.autoIndent" = "full";
           "editor.bracketPairColorization.enabled" = true;
           "editor.fontSize" = 16;
           "editor.formatOnSave" = true;
