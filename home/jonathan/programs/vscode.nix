@@ -1,7 +1,7 @@
 { config, pkgs, ... }: {
   programs.vscode = {
     enable = true;
-    package = pkgs.vscode; # Can be changed to vscodium
+    package = pkgs.vscodium; # Can be changed to vscodium
     profiles = {
       latex = {
         extensions = with pkgs.vscode-extensions; [
