@@ -86,6 +86,7 @@
           "workbench.colorTheme" = "Default Dark Modern";
           "workbench.preferredDarkColorTheme" = "Default Dark Modern";
           "workbench.sideBar.location" = "right";
+          "workbench.startupEditor" = "none";
           "workbench.statusBar.visible" = true;
         };
       };
