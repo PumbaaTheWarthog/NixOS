@@ -6,6 +6,7 @@
     homeDirectory = "/home/jonathan";
     stateVersion = "24.11";
     packages = with pkgs; [
+      fastfetch
       firefox
       tree
     ];
