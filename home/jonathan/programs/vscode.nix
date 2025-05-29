@@ -3,9 +3,11 @@
     enable = true;
     package = pkgs.vscodium; # Can be changed to vscodium
     profiles = {
-      latex = {
+      LaTeX = {
         extensions = with pkgs.vscode-extensions; [
           james-yu.latex-workshop
+
+          vscode-icons-team.vscode-icons
         ];
         userSettings = {
           "editor.acceptSuggestionOnCommitCharacter" = false;
@@ -83,21 +85,101 @@
           "latex-workshop.view.pdf.dark.backgroundColor" = "#1e1e1e";
           "latex-workshop.view.pdf.zoom" = "page-fit";
 
-          "workbench.colorTheme" = "Default Dark Modern";
-          "workbench.preferredDarkColorTheme" = "Default Dark Modern";
+          "workbench.colorTheme" = "Monokai";
+          "workbench.iconTheme" = "vscode-icons";
+          "workbench.preferredDarkColorTheme" = "Monokai";
           "workbench.sideBar.location" = "right";
           "workbench.startupEditor" = "none";
           "workbench.statusBar.visible" = true;
         };
       };
-      python = {
+
+      Nix = {
+        extensions = with pkgs.vscode-extensions; [
+          jnoortheen.nix-ide
+
+          vscode-icons-team.vscode-icons
+        ];
+        userSettings = {
+          "editor.acceptSuggestionOnCommitCharacter" = false;
+          "editor.acceptSuggestionOnEnter" = "on";
+          "editor.accessibilitySupport" = "off";
+          "editor.autoClosingBrackets" = "always";
+          "editor.autoClosingQuotes" = "always";
+          "editor.autoIndent" = "full";
+          "editor.bracketPairColorization.enabled" = true;
+          "editor.fontSize" = 16;
+          "editor.formatOnSave" = true;
+          "editor.suggestOnTriggerCharacters" = true;
+          "editor.tabSize" = 2;
+          "editor.wordWrap" = "off";
+
+          "workbench.colorTheme" = "Monokai";
+          "workbench.iconTheme" = "vscode-icons";
+          "workbench.preferredDarkColorTheme" = "Monokai";
+          "workbench.sideBar.location" = "right";
+          "workbench.startupEditor" = "none";
+          "workbench.statusBar.visible" = true;
+        };
+      };
+
+      Python = {
         extensions = with pkgs.vscode-extensions; [
           ms-python.python
           ms-python.vscode-pylance
           ms-python.debugpy
+
+          vscode-icons-team.vscode-icons
         ];
         userSettings = {
-          
+          "editor.acceptSuggestionOnCommitCharacter" = false;
+          "editor.acceptSuggestionOnEnter" = "on";
+          "editor.accessibilitySupport" = "off";
+          "editor.autoClosingBrackets" = "always";
+          "editor.autoClosingQuotes" = "always";
+          "editor.autoIndent" = "full";
+          "editor.bracketPairColorization.enabled" = true;
+          "editor.fontSize" = 16;
+          "editor.formatOnSave" = true;
+          "editor.suggestOnTriggerCharacters" = true;
+          "editor.tabSize" = 4;
+          "editor.wordWrap" = "off";
+
+          "workbench.colorTheme" = "Monokai";
+          "workbench.iconTheme" = "vscode-icons";
+          "workbench.preferredDarkColorTheme" = "Monokai";
+          "workbench.sideBar.location" = "right";
+          "workbench.startupEditor" = "none";
+          "workbench.statusBar.visible" = true;
+        };
+      };
+
+      Zig = {
+        extensions = with pkgs.vscode-extensions; [
+          ziglang.vscode-zig
+
+          vscode-icons-team.vscode-icons
+        ];
+        userSettings = {
+          "editor.acceptSuggestionOnCommitCharacter" = false;
+          "editor.acceptSuggestionOnEnter" = "on";
+          "editor.accessibilitySupport" = "off";
+          "editor.autoClosingBrackets" = "always";
+          "editor.autoClosingQuotes" = "always";
+          "editor.autoIndent" = "full";
+          "editor.bracketPairColorization.enabled" = true;
+          "editor.fontSize" = 16;
+          "editor.formatOnSave" = true;
+          "editor.suggestOnTriggerCharacters" = true;
+          "editor.tabSize" = 4;
+          "editor.wordWrap" = "off";
+
+          "workbench.colorTheme" = "Monokai";
+          "workbench.iconTheme" = "vscode-icons";
+          "workbench.preferredDarkColorTheme" = "Monokai";
+          "workbench.sideBar.location" = "right";
+          "workbench.startupEditor" = "none";
+          "workbench.statusBar.visible" = true;
         };
       };
     };
