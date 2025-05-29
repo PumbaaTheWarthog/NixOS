@@ -85,6 +85,8 @@
           "latex-workshop.view.pdf.dark.backgroundColor" = "#1e1e1e";
           "latex-workshop.view.pdf.zoom" = "page-fit";
 
+          "vsicons.dontShowNewVersionMessage" = true;
+
           "workbench.colorTheme" = "Monokai";
           "workbench.iconTheme" = "vscode-icons";
           "workbench.preferredDarkColorTheme" = "Monokai";
@@ -113,6 +115,8 @@
           "editor.suggestOnTriggerCharacters" = true;
           "editor.tabSize" = 2;
           "editor.wordWrap" = "off";
+
+          "vsicons.dontShowNewVersionMessage" = true;
 
           "workbench.colorTheme" = "Monokai";
           "workbench.iconTheme" = "vscode-icons";
@@ -145,6 +149,8 @@
           "editor.tabSize" = 4;
           "editor.wordWrap" = "off";
 
+          "vsicons.dontShowNewVersionMessage" = true;
+
           "workbench.colorTheme" = "Monokai";
           "workbench.iconTheme" = "vscode-icons";
           "workbench.preferredDarkColorTheme" = "Monokai";
@@ -173,6 +179,8 @@
           "editor.suggestOnTriggerCharacters" = true;
           "editor.tabSize" = 4;
           "editor.wordWrap" = "off";
+
+          "vsicons.dontShowNewVersionMessage" = true;
 
           "workbench.colorTheme" = "Monokai";
           "workbench.iconTheme" = "vscode-icons";
