@@ -116,6 +116,16 @@
           "editor.tabSize" = 2;
           "editor.wordWrap" = "off";
 
+          "nix.enableLanguageServer" = true;
+          "nix.serverPath" = "nixd";
+          "nix.serverSettings" = {
+            "nixd" = {
+              "formatting" = {
+                "command" = [ "nixfmt" ];
+              };
+            };
+          };
+
           "vsicons.dontShowNewVersionMessage" = true;
 
           "workbench.colorTheme" = "Monokai";
