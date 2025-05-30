@@ -9,6 +9,7 @@
       fastfetch
       tree
       nixd
+      nixfmt-rfc-style
     ];
   };
 
